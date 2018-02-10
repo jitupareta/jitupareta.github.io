@@ -3,7 +3,7 @@ jQuery(document).ready(function($){
 
 
 	/* ---- Countdown timer ---- */
-    var d = new Date('2017-01-17T00:00:00');
+    var d = new Date('2018-02-18T00:00:00');
     jQuery.noConflict();
 	$('#counter').countdown({     
 		timestamp : (new Date()).getTime() + Math.abs(d - new Date())  //17 date millisecond - current date milliseconds
